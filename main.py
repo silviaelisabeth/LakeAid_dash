@@ -148,6 +148,6 @@ def update_graph_depthCorrDetail(lbl_plankton):
 # create the dashboard 
 if __name__ == "__main__":
     # IP address in home wifi · 192.168.0.181
-    app.run_server(debug=True)
+    app.run_server(debug=False)
     #app.run_server(host="0.0.0.0", port=8888)
  
